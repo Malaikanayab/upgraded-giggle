@@ -6,7 +6,7 @@ clear; clc;
 
 %% 1. Define Circuit Parameters (Adjust these values to match your model)
 V_rms = 100;        % Source Voltage (RMS Volts)
-f = 50;             % Frequency (Hz)
+f = 60;             % Frequency (Hz)
 R = 10;             % Resistance (Ohms)
 L = 0.01;           % Inductance (Henries)
 
