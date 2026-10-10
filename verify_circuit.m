@@ -5,10 +5,10 @@
 clear; clc;
 
 %% 1. Define Circuit Parameters (Adjust these values to match your model)
-V_rms = 220;        % Source Voltage (RMS Volts)
+V_rms = 100;        % Source Voltage (RMS Volts)
 f = 50;             % Frequency (Hz)
-R = 50;             % Resistance (Ohms)
-L = 0.15;           % Inductance (Henries)
+R = 10;             % Resistance (Ohms)
+L = 0.01;           % Inductance (Henries)
 
 %% 2. Theoretical Calculations
 omega = 2*pi*f;     % Angular frequency (rad/s)
